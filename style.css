@@ -1,0 +1,80 @@
+* {
+  margin: 30px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  margin-top: 32px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: -15px;
+}
+
+body {
+  background-color: tomato;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: -15px;
+}
+
+.linkAzul:hover {
+  color: blue;
+}
+
+.linkAmarelo:hover {
+  color: yellow;
+}
+
+main {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.esquerda {
+  padding: 20px;
+  width: 700px;
+  height: 900px;
+  background-color: gray;
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.direita {
+  padding: 20px;
+  width: 700px;
+  height: 900px;
+  background-color: lightgray;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* justify-content: space-evenly; */
+}
+
+.image1 {
+  width: 500px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+#tipoAzul {
+  background-color: aqua;
+  width: 80%;
+  padding: 10px;
+}
+
+#tipoAmarelo {
+  background-color: yellow;
+  width: 80%;
+  padding: 10px;
+}
